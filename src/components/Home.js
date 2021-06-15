@@ -19,7 +19,6 @@ const Home = () => {
 
     return (
         <div>
-            <Link to='/'>Home</Link><br/>
             <Link to='/protected'>Protected</Link><br/>
             {button}
         </div>
