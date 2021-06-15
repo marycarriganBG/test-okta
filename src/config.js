@@ -17,8 +17,18 @@ const oktaSignInConfig = {
         // instead of the Authorization Code with Proof of Code Key Exchange (PKCE)
         // you will need to uncomment the below line
         // pkce: false
-    }
+    },
     // Additional documentation on config options can be found at https://github.com/okta/okta-signin-widget#basic-config-options
+    customButtons: [
+        {
+            title: 'Go to BillGO!',
+            className: 'btn-customAuth',
+            click: function() {
+                // clicking on the button navigates to another page
+                window.location.href = 'https://billgo.com';
+            }
+        }
+        ]
 };
 
 export { oktaAuthConfig, oktaSignInConfig };

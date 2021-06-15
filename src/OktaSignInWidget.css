@@ -1,0 +1,12 @@
+#okta-sign-in *{
+    color: #65276d;
+}
+
+#okta-sign-in.auth-container .button-primary{
+    background: #9951A5;
+    border: #9951A5;
+}
+#okta-sign-in.auth-container .default-custom-button.link-button{
+    background: #9951A5;
+    border: #9951A5;
+ }
